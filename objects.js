@@ -1,15 +1,15 @@
 var playlist = {
   'My Bloody Valentine': "a song",
-  'beyonce': "love on top",
-  'Slowdive': "something",
-  'jonasBros': "sucker"
+  'Phil Ochs': "love on top",
+  'Slowdive': "April",
 };
 
 function updatePlaylist (playlist, artistName, songTitle) {
   return playlist[artistName] = songTitle
 }
 
+
 function removeFromPlaylist (playlist, artistName) {
   delete playlist.artistName;
-  return playlist;
+  return playlist
 }
